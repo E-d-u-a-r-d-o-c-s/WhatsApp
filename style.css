@@ -19,9 +19,17 @@ body {
 
 .interface2 {
     width: 70vw;
+}
+
+#interface3 {
     background: #F0F2F5 url('imagens/fundo.jpg') center center
     no-repeat fixed;
     background-size: cover;
+}
+
+iframe {
+    height: 629px;
+    width: 956px;
 }
 
 abbr {
@@ -31,6 +39,7 @@ abbr {
 .cabecalho1 {
     background-color: #F0F2F5;
     display: flex;
+    border-right: 1px solid black;
 }
 
 .cabecalho1>.perfil {
@@ -100,7 +109,7 @@ nav {
 
 .conversa {
     display: flex;
-    margin: 10px 0px 10px 10px;
+    padding: 10px 0px 10px 10px;
 }
 
 .conversa>article>h1 {
@@ -112,11 +121,18 @@ hr {
     margin: 0px 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.conversa:hover {
+    background-color: #F0F2F5;
+}
 /* Painel de conversa */
 .cabecalho3 {
     background-color: #F0F2F5;
     display: flex;
-    border-left: 1px solid black;
 }
 
 .cabecalho3>.perfil {

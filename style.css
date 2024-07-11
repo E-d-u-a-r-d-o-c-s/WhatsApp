@@ -98,7 +98,7 @@ nav {
 /* CONVERSA */
 .rolagem {
     overflow-y: auto;
-    height: 483px;
+    height: 479px;
 }
 
 .perfil {
@@ -129,6 +129,7 @@ a {
 .conversa:hover {
     background-color: #F0F2F5;
 }
+
 /* Painel de conversa */
 .cabecalho3 {
     background-color: #F0F2F5;
@@ -146,7 +147,7 @@ a {
 
 #cont0 {
     position: relative;
-    height: 520px;
+    height: 517.4px;
     overflow-y: auto;
 }
 
@@ -227,12 +228,11 @@ a {
 footer {
     background-color: #F0F2F5;
     height: 60px;
-
-    position: relative;
 }
 
 footer>section {
     padding-top: 10px;
+
 }
 
 .digite {

@@ -21,7 +21,7 @@ body {
     width: 70vw;
 }
 
-#interface3 {
+.interface3 {
     background: #F0F2F5 url('imagens/fundo.jpg') center center
     no-repeat fixed;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
 
 iframe {
     height: 629px;
-    width: 956px;
+    width: 70vw;
 }
 
 abbr {

@@ -55,9 +55,11 @@ abbr {
     height: 40px;
 }
 
-.pesquisa>p {
-    color: #808185;
-    margin-top: 12px;
+#ipes {
+    background-color: #f0f2f5;
+    border: none;
+    font-size: 20px;
+    margin-top: 8px;
 }
 
 #lupa {

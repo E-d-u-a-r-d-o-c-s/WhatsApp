@@ -11,10 +11,12 @@ body {
 
 .interface0 {
     display: flex;
+    height: 99.45vh;
 }
 
 .interface1 {
     width: 30vw;
+    
 }
 
 .interface2 {
@@ -25,10 +27,11 @@ body {
     background: #F0F2F5 url('imagens/fundo.jpg') center center
     no-repeat fixed;
     background-size: cover;
+    height: 100%;
 }
 
 iframe {
-    height: 629px;
+    height: 100%;
     width: 70vw;
 }
 
@@ -100,7 +103,7 @@ nav {
 /* CONVERSA */
 .rolagem {
     overflow-y: auto;
-    height: 479px;
+    height: calc(100% - 150px);
 }
 
 .perfil {
@@ -149,7 +152,7 @@ a {
 
 #cont0 {
     position: relative;
-    height: 517.4px;
+    height: calc(100% - 112px);
     overflow-y: auto;
 }
 

@@ -7,11 +7,12 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    height: 99.46vh;
 }
 
 .interface0 {
     display: flex;
-    height: 99.45vh;
+    height: 100%;
 }
 
 .interface1 {
@@ -41,7 +42,6 @@ abbr {
 
 .cabecalho1 {
     background-color: #F0F2F5;
-    display: flex;
     border-right: 1px solid black;
 }
 
@@ -103,7 +103,7 @@ nav {
 /* CONVERSA */
 .rolagem {
     overflow-y: auto;
-    height: calc(100% - 150px);
+    height: calc(100% - 154px);
 }
 
 .perfil {
@@ -151,9 +151,10 @@ a {
 }
 
 #cont0 {
-    position: relative;
     height: calc(100% - 112px);
     overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .cont1 {
@@ -162,7 +163,7 @@ a {
     width: 400px;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
 }
 
 .cont2 {
@@ -171,63 +172,8 @@ a {
     width: 400px;
     border-radius: 10px;
     padding: 10px;
-    margin: 20px;
-    position: absolute;
-
-    left: 100%;
-    transform: translate(-110%, -10%);
-}
-
-.cont3 {
-    background-color: #ffffff;
-    text-align: justify;
-    width: 400px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-
-    position: absolute;
-    top: 72%;
-}
-
-.cont4 {
-    background-color: #D9FDD3;
-    text-align: justify;
-    width: 400px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    position: absolute;
-
-    left: 100%;
-    top: 111%;
-    transform: translate(-110%, -10%);
-}
-
-.cont5 {
-    background-color: #ffffff;
-    text-align: justify;
-    width: 400px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-
-    position: absolute;
-    top: 145%;
-}
-
-.cont6 {
-    background-color: #D9FDD3;
-    text-align: justify;
-    width: 400px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    position: absolute;
-
-    left: 100%;
-    top: 185%;
-    transform: translate(-110%, -10%);
+    margin: 10px 20px 10px 20px;
+    align-self: flex-end;
 }
 
 footer {
@@ -246,4 +192,9 @@ footer>section {
     padding: 10px;
     border-radius: 8px;
     margin: 0px 20px 0px 150px;
+}
+
+#imensagem {
+    border: none;
+    font-size: 20px;
 }
